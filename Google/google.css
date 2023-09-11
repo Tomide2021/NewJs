@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(animee.jpg);
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.of{
+    width: 100%;
+    height: 10vh;
+    /* background-color: green; */
+}
+.mmm{
+    width: 20%;
+    height: inherit;
+    /* background-color: red; */
+    float: right;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+.mmm a{
+    text-decoration: none;
+    color: white;
+
+}
+.mmm a:hover{
+    text-decoration: underline;
+
+}
+.btn1{
+    /* display: none; */
+   
+}
+
+.btn1 button{
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 10px;
+    border: none;
+}
+.btn1 button:hover{
+    background-color: rgba(220, 220, 220, 0.603);
+    cursor: pointer;
+
+}
+
+.btn2{
+    /* background-color: yellow; */
+    width: 15%;
+}
+.btn2 button{
+    background-color: green;
+    border-radius: 50%;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    font-size: 18px;
+    color: white;
+}
+.drop{
+    width: 150%;
+    height: 70vh;
+    padding: 5%;
+    /* background-color: magenta; */
+    position: absolute;
+    left: 0;
+    margin-top: 10px;
+    margin-left: -65%;
+    /* display: flex; */
+    justify-content: space-evenly;
+    overflow-y: scroll;
+    border-radius: 20px;
+    display: none;
+
+}
+.btn1:focus-within .drop{
+    display: block;
+}
+
+.sem{
+    width: 100%;
+    height: 17vh;
+    /* background-color: cadetblue; */
+    justify-content: space-evenly;
+    display: flex;
+    margin-bottom: 5%;
+}
+.drop1{
+    width: 29%;
+    height: 17vh;
+    /* background-color: red */
+}
+.bbb{
+    width: 50px;
+}
+.bbb1{
+    width: 50px;
+}
+.drop1 .be{
+    margin-left: 8px;
+}
+.drop1 .be1{
+    margin-left: 10px;
+}
+.bbb2{
+    width: 50px;
+}
+.be2{
+    margin-left: 10px ;
+}
+.bbb3{
+    width: 50px;
+}
+.be3{
+    margin-left: 10px;
+}
+.bbb4{
+    width: 50px;
+}
+.be4{
+    margin-left: 10px;
+}
+.bbb5{
+    width: 50px;
+}
+.bbb7{
+    width: 50px;
+}
+.bbb6{
+    width: 50px;
+}
+.be6{
+    margin-left: 10px;
+}
+.bbb7{
+    width: 50px;
+}
+.be7{
+    margin-left: 10px;
+}
+.bbb8{
+    width: 50px;
+}
+.be8{
+    margin-left: 10px;
+}
+.bbb9{
+    width: 50px;
+}
+.be9{
+    margin-left: 10px;
+}
+.bbb10{
+    width: 50px;
+}
+.be10{
+    margin-left: 10px;
+}
+.bbb11{
+    width: 50px;
+}
+.be11{
+    margin-left: 10px;
+}
+.bbb12{
+    width: 50px;
+}
+.be12{
+    margin-left: 10px;
+}
+.bbb13{
+    width: 50px;
+}
+.be13{
+    margin-left: 10px;
+}
+.bbb14{
+    width: 50px;
+}
+.be14{
+    margin-left: 10px;
+}
+.bbb15{
+    width: 50px;
+}
+.be15{
+    margin-left: 10px;
+}
+.bbb16{
+    width: 50px;
+}
+.be16{
+    margin-left: 10px;
+}
+.bbb17{
+    width: 50px;
+}
+.be17{
+    margin-left: 10px;
+}
+.bbb18{
+    width: 50px;
+}
+.be18{
+    margin-left: 10px;
+}
+.bbb19{
+    width: 50px;
+}
+.be19{
+    margin-left: 10px;
+}
+.bbb20{
+    width: 50px;
+}
+.be20{
+    margin-left: 10px;
+}
+.bbb21{
+    width: 50px;
+}
+.be21{
+    margin-left: 10px;
+}
+.bbb22{
+    width: 50px;
+}
+.be22{
+    margin-left: 10px;
+}
+.bbb23{
+    width: 50px;
+}
+.be23{
+    margin-left: 10px;
+}
+.bbb24{
+    width: 50px;
+}
+.be24{
+    margin-left: 10px;
+}
+.bbb25{
+    width: 50px;
+}
+.be25{
+    margin-left: 10px;
+}
+.bbb26{
+    width: 50px;
+}
+.be26{
+    margin-left: 10px;
+}
+.bbb27{
+    width: 50px;
+}
+.be27{
+    margin-left: 10px;
+}
+.bbb28{
+    width: 50px;
+}
+.be28{
+    margin-left: 10px;
+}
+.bbb29{
+    width: 50px;
+}
+.be29{
+    margin-left: 10px;
+}
+.bbb30{
+    width: 50px;
+}
+.be30{
+    margin-left: 10px;
+}
+.bbb31{
+    width: 50px;
+}
+.be31{
+    margin-left: 10px;
+}.btn2:focus-within .dad{
+    display: block;
+}
+.dad{
+    width: 120%;
+    height: 60vh;
+    background-color: rgb(80, 75, 75);
+    position: absolute;
+    right: 40px;
+    border-radius: 30px;
+    display: none;
+}
+.fb{
+    background-color: black;
+    height: 40vh;
+    border-radius: 30px;
+    margin: 10px;
+}
+.domi{
+    text-align: center;
+    color: aliceblue;
+}
+.gr{
+    display: flex;
+}
+.gf{
+    color: white;
+    margin-top: 12px;
+    margin-left: 10px;
+    width: 200px
+}
+.ss{
+    color: white;
+    margin-left: 50px;
+
+}
+
+.opp input{
+    width: 200px;
+    height: 20px;
+    padding: 0 10px;
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    background-color: white;
+    margin-left: 30px;
+
+}
+.elf{
+    display: flex;
+    margin-left: 50px;
+}
+.arf{
+    margin-left: 20px;
+}
+.ore{
+    display: flex;
+    color: white;
+    margin-left: 40px;
+}
+
+.tee{
+    width: 50px;
+    height: 40px;
+    margin-top: 10px;
+}
+.nnn{
+    display: flex;
+    margin-left: 30px;
+    color: white;
+    margin-top: 2px;
+}
+.dor{
+    margin-left: 10px;
+}
+
+
+
+
+
